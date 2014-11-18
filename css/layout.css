@@ -15867,8 +15867,7 @@ th.hide-for-touch {
 header {
   height: 100px; }
   header .logo {
-    font-size: 1em;
-    color: #24b5cf; }
+    font-size: 2em; }
   header #lstHauptnavigation {
     margin: 1em 0;
     list-style-type: none;
@@ -15888,10 +15887,3 @@ header {
   .surgeon > div h1 {
     margin: 1em 0;
     text-align: center; }
-  .surgeon > div img {
-    position: absolute;
-    bottom: -50px;
-    left: 0px;
-    right: 0px;
-    width: 100px;
-    margin: 0 auto; }

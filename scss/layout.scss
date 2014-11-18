@@ -7,8 +7,7 @@ header
 	
 	.logo
 	{
-		font-size: 1em;
-		color:$opcheckblau;
+		font-size: 2em;
 	}
 	
 	#lstHauptnavigation
@@ -44,16 +43,6 @@ header
 		{
 			margin: 1em 0;
 			text-align: center;
-		}
-		
-		img
-		{
-			position: absolute;
-			bottom: -50px;
-			left: 0px;
-			right: 0px;
-			width: 100px;
-			margin: 0 auto;
 		}
 	}
 }
