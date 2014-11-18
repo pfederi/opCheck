@@ -1,0 +1,8 @@
+# ISAPI Rewrite (global)
+
+RewriteEngine on
+RewriteBase /
+
+RewriteRule ^/?$ /de/index.php [L]
+RewriteRule ^fuer-aerzte/?$ /de/fuer-aerzte.php [L]
+RewriteRule ^spenden/?$ spenden.asp [L]
