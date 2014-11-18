@@ -1,0 +1,62 @@
+@import "settings";
+@import "foundation";
+
+header
+{
+	height: 100px;
+	
+	.logo
+	{
+		font-size: 3em;
+	}
+	
+	#lstHauptnavigation
+	{
+		margin: 1em 0;
+		list-style-type: none;
+		float: right;
+		
+		li {
+			float: left;
+			margin: 0 1em 0 0;
+		}
+	}
+	
+	button
+	{
+		float: right;
+	}
+}
+
+.surgeon
+{
+	
+	> div
+	{
+		position: relative;
+		height: 180px;
+		margin-bottom: 80px;
+		border-top: 1px solid #111;
+		border-bottom: 1px solid #111;
+		
+		h1
+		{
+			margin: 1em 0;
+			text-align: center;
+		}
+		
+		img
+		{
+			position: absolute;
+			bottom: -50px;
+			left: 0px;
+			right: 0px;
+			width: 100px;
+			margin: 0 auto;
+		}
+	}
+}
+	
+	
+
+	
