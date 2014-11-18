@@ -1,4 +1,4 @@
-<?php include("includes/header.inc.php"); ?>
+<?php include("../includes/header.inc.php"); ?>
 
 <header class="row">
 	<div class="large-6 columns">
