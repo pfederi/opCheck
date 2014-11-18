@@ -1,4 +1,4 @@
-<?php include("includes/header.inc.php"); ?>
+<?php include("../includes/header.inc.php"); ?>
 
 <header class="row">
 	<div class="large-6 columns">
@@ -16,15 +16,12 @@
 
 <div class="row surgeon">
 	<div class="large-12 columns large-centered">
-		<img src="images/logos/surgeon.png" alt="Surgeon" />
+		<img src="../images/logos/surgeon.png" alt="Surgeon" />
 		<h1>Lorem Ipsum dolor sit amet</h1>
 	</div>
 </div>
 
+<?php include("../includes/footer.inc.php"); ?>
 
 
-<script src="bower_components/jquery/dist/jquery.min.js"></script>
-<script src="bower_components/foundation/js/foundation.min.js"></script>
-<script src="js/app.js"></script>
-</body>
-</html>
+

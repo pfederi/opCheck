@@ -15867,7 +15867,8 @@ th.hide-for-touch {
 header {
   height: 100px; }
   header .logo {
-    font-size: 3em; }
+    font-size: 3em;
+    color: #24b5cf; }
   header #lstHauptnavigation {
     margin: 1em 0;
     list-style-type: none;
