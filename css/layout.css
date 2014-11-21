@@ -15928,7 +15928,12 @@ header button {
   width: 87%; }
 
 .ablauf {
-  background: url(/images/design/line.png) repeat-y center 80px; }
+  position: relative;
+  display: block;
+  background: url(/images/design/line.png) repeat-y center 80px;
+  overflow: hidden;
+  padding-bottom: 120px;
+  height: 460px; }
   .ablauf .number {
     text-align: center; }
     .ablauf .number > div {
@@ -15957,6 +15962,29 @@ header button {
 .privacy-policy .panel p, .impressum .panel p {
   font-size: 1.5em;
   line-height: 1.2em; }
+
+.intro-link,
+.toggle-link {
+  position: absolute;
+  bottom: 0px;
+  display: block;
+  padding: 12px 0 0 0;
+  width: 100%;
+  height: 100px;
+  color: #222;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 3.6em;
+  cursor: pointer;
+  background-position: center center;
+  background-image: url(/images/icons/arrow-down.svg);
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-color: #fff; }
+  .intro-link:hover,
+  .toggle-link:hover {
+    opacity: 0.8; }
 
 footer ul {
   float: right;

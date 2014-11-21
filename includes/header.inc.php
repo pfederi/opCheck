@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="../css/layout-darko.css" />
     <link rel="stylesheet" href="../css/layout.css" />
     <script src="../bower_components/modernizr/modernizr.js"></script>
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../bower_components/foundation/js/foundation.min.js"></script>
+    <script src="../js/app.js"></script>
+    <script src="../js/hyphenator/hyphenator-loader-1.1.min.js"></script>
+
     <!-- FEEDBACK BUTTON -->
     <script type='text/javascript'>
 	var BugHerdConfig = {
