@@ -1,9 +1,16 @@
 @import "settings";
 @import "foundation";
 
+h3
+{
+	margin: 0;
+	text-align: center;
+	padding: 0.500em 0 2em;
+	background: #fff;
+}
+
 header
 {
-	height: 100px;
 	
 	.logo
 	{
@@ -12,7 +19,7 @@ header
 	
 	#lstHauptnavigation
 	{
-		margin: 1em 0;
+		margin: 1em 0 0;
 		list-style-type: none;
 		float: right;
 		
@@ -25,6 +32,7 @@ header
 	button
 	{
 		float: right;
+		margin: 0;
 	}
 }
 
@@ -34,19 +42,83 @@ header
 	> div
 	{
 		position: relative;
-		height: 180px;
-		margin-bottom: 80px;
-		border-top: 1px solid #111;
-		border-bottom: 1px solid #111;
+		text-align: center;
+		height: 250px;
 		
-		h1
+		h1, h2
 		{
-			margin: 1em 0;
+			margin: 1em 0 .500em;
+		}
+		
+		h2
+		{
+			margin: 0;
+		}
+		
+		img {
+			position: absolute;
+			bottom: -70px;
+			left: 0;
+			right: 0;
+			margin: 0 auto;
+			width: 100px;
 			text-align: center;
 		}
 	}
 }
+
+.calltoaction
+{
+	> div
+	{
+		text-align: center;
+		
+		button {
+			margin: 3em auto 0;
+		}
+	}
+}
+
+.vorteile
+{
+	img {
+		float: left;
+		width: 10%;
+		margin: 0 3% 0 0;
+	}
 	
+	p {
+		float: left;
+		width: 87%
+	}
+}
 	
+.ablauf
+{
+	background: url(/images/design/line.png) repeat-y center 80px;
+	
+	.number
+	{
+		text-align: center;
+		
+		
+		> div  {
+			display:inline-table;
+			
+			span {
+				display: table-cell;
+				vertical-align: middle;
+				width: 50px;
+				height: 50px;
+				font-size: 1.5em;
+				border: 1px solid #333;
+				border-radius: 50%;
+				text-align: center;
+				font-weight: 600;
+				background-color: #fff;
+			}
+		}
+	}
+}
 
 	

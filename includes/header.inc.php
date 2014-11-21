@@ -20,6 +20,6 @@
 				<li><a href="patienten">für Patienten</a></li>
 				<li><a href="aerzte">für Ärzte</a></li>
 			</ul>
-			
 		</div>
 	</header>
+	<hr>
