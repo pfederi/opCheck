@@ -15,6 +15,7 @@
 		<ul>
 			<li><a href="agbs">AGBs</a></li>
 			<li><a href="impressum">Impressum</a></li>
+			<li></li>
 		</ul>
 	</div>
 </footer>
