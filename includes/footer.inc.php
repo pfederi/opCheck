@@ -13,7 +13,7 @@
 	</div>
 	<div class="large-4 medium-6 small-6 columns">
 		<ul>
-			<li><a href="agbs">AGBs</a></li>
+			<li><a href="privacy-policy">Privacy Policy</a></li>
 			<li><a href="impressum">Impressum</a></li>
 		</ul>
 	</div>
@@ -22,5 +22,6 @@
     <script src="../bower_components/jquery/dist/jquery.min.js"></script>
     <script src="../bower_components/foundation/js/foundation.min.js"></script>
     <script src="../js/app.js"></script>
+    <script src="../js/hyphenator/hyphenator-loader-1.1.min.js"></script>
   </body>
 </html>

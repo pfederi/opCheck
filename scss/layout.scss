@@ -1,6 +1,22 @@
 @import "settings";
 @import "foundation";
 
+.hyphenate {
+	text-align: left;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+  }
+  
+.donthyphenate {
+	text-align: left;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
 h3
 {
 	margin: 0;
@@ -120,6 +136,31 @@ header
 		}
 	}
 }
+
+.privacy-policy, .impressum {
+	h1 {
+		text-align: center;
+	}
+	
+	h2 {
+		font-size: 1.5rem;
+	}
+	
+	img {
+		position: absolute;
+		bottom: 40px;
+		right: 40px;
+		width: 30px;
+	}
+	
+	.panel {
+		p {
+			font-size: 1.5em;
+			line-height: 1.2em;
+		}
+	}
+}
+
 
 footer
 {

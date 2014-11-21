@@ -6,4 +6,5 @@ RewriteBase /
 RewriteRule ^/?$ /de/index.php [L]
 
 RewriteRule ^zweitmeinung/?$ /de/zweitmeinung.php [L]
-RewriteRule ^spenden/?$ spenden.asp [L]
+RewriteRule ^privacy-policy/?$ /de/privacy-policy.php [L]
+RewriteRule ^impressum/?$ /de/impressum.php [L]
