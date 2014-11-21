@@ -1,0 +1,10 @@
+/* line 1, ../scss/layout-kate.scss */
+.tip-top {
+  float: left;
+  padding: 0 0.5em 0 0;
+}
+
+/* line 8, ../scss/layout-kate.scss */
+.columns .labelTitle {
+  float: left;
+}

@@ -23407,10 +23407,28 @@ th.hide-for-touch {
 
   /* line 404, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   th.show-for-print {
+<<<<<<< HEAD
     display: table-cell !important;
   }
 }
 /* line 4, ../scss/layout.scss */
+=======
+    display: table-cell !important; } }
+.hyphenate {
+  text-align: left;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto; }
+
+.donthyphenate {
+  text-align: left;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none; }
+
+>>>>>>> 6c51f0f82faaff8125f28b8828f701244d8901fc
 h3 {
   margin: 0;
   text-align: center;
@@ -23487,6 +23505,7 @@ header button {
 
 /* line 96, ../scss/layout.scss */
 .ablauf {
+<<<<<<< HEAD
   background: url(/images/design/line.png) repeat-y center 80px;
 }
 /* line 100, ../scss/layout.scss */
@@ -23510,3 +23529,45 @@ header button {
   font-weight: 600;
   background-color: #fff;
 }
+=======
+  background: url(/images/design/line.png) repeat-y center 80px; }
+  .ablauf .number {
+    text-align: center; }
+    .ablauf .number > div {
+      display: inline-table; }
+      .ablauf .number > div span {
+        display: table-cell;
+        vertical-align: middle;
+        width: 50px;
+        height: 50px;
+        font-size: 1.5em;
+        border: 1px solid #333;
+        border-radius: 50%;
+        text-align: center;
+        font-weight: 600;
+        background-color: #fff; }
+
+.privacy-policy h1, .impressum h1 {
+  text-align: center; }
+.privacy-policy h2, .impressum h2 {
+  font-size: 1.5rem; }
+.privacy-policy img, .impressum img {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  width: 30px; }
+.privacy-policy .panel p, .impressum .panel p {
+  font-size: 1.5em;
+  line-height: 1.2em; }
+
+footer ul {
+  float: right;
+  list-style-type: none; }
+  footer ul li {
+    float: left;
+    border-right: 1px solid #333;
+    padding: 0 0.500em; }
+    footer ul li:last-child {
+      border: transparent;
+      padding: 0 0 0.500 0; }
+>>>>>>> 6c51f0f82faaff8125f28b8828f701244d8901fc
