@@ -7,7 +7,7 @@
               <div class="large-4 columns">         
                 <label class="labelTitle">Fachbereich</label>    
                   <div data-tooltip aria-haspopup="true" class="tip-top" title="Wählen Sie zunächst das Fachgebiet.">
-                  <img src="images/icons/help.svg" alt="help">
+                  	<img src="images/icons/help.svg" alt="help">
                   </div>
                 <select>
                   <option value="#">...</option>
@@ -21,7 +21,7 @@
               <div class="large-4 columns">                 
                 <label class="labelTitle">Bereich</label>
                   <div data-tooltip aria-haspopup="true" class="tip-top" title="Welcher Bereich ist betroffen?">
-                  <img src="images/icons/help.svg" alt="help">
+                  	<img src="images/icons/help.svg" alt="help">
                   </div>
                 <select>
                   <option value="#">...</option>
@@ -37,7 +37,7 @@
               <div class="large-4 columns">    
                  <label class="labelTitle">Befund</label>
                   <div data-tooltip aria-haspopup="true" class="tip-top" title="Welche Diagnose hat Ihr Arzt gestellt?">
-                  <img src="images/icons/help.svg" alt="help">
+                  	<img src="images/icons/help.svg" alt="help">
                   </div>
                  <select>
                   <option value="#">...</option>
