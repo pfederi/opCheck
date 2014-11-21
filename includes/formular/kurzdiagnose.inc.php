@@ -1,11 +1,7 @@
 <div class="row">
 	<div class="large-12 columns">
-	  <h1>2- Kurzdiagnose
-      <div data-tooltip aria-haspopup="true" class="tip-top" title="Einordnung Ihrer bestehenden Diagnose.">
-      <img src="images/icons/help.svg" alt="help">
-      </div>
-    </h1>
-
+<!-- 	  <h1>2- Kurzdiagnose</h1>
+ -->
 	  <form>
 	      <div class="row">
               <div class="large-4 columns">         
@@ -20,7 +16,7 @@
                   <option value="viszeral">Viszeralchirurgie</option>
                   <option value="allgemein">Allgemeinchirurgie</option>
                 </select>
-                </label>
+
               </div>
               <div class="large-4 columns">                 
                 <label class="labelTitle">Bereich</label>
@@ -36,7 +32,7 @@
                   <option value="hand">Hand</option>
                   <option value="andere">andere</option>
                 </select>
-                </label>
+
               </div>
               <div class="large-4 columns">    
                  <label class="labelTitle">Befund</label>
@@ -50,7 +46,6 @@
                   <option value="kniegelenksentzuendung">Kniegelenksentzündung</option>
                   <option value="andere">andere</option>
                 </select>
-                </label>
               </div>
           </div> 
 	      <div class="row">
@@ -73,15 +68,8 @@
                 <textarea placeholder="..."></textarea>
               </label>
             </div>
-          </div>
-	      <div class="row">
-              <div class="large-10 columns">
-                
-              </div>
-              <div class="large-2 columns">
-                <a href="#" class="button [tiny small large]">Speichern</a>
-              </div>
-          </div>
+        </div>
+
 	  </form>
 	</div>
 </div>

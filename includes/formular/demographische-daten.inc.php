@@ -1,8 +1,6 @@
 <div class="row">
 	<div class="large-12 columns">
-		<h1>1- Demographische Daten</h1> 
-		<div class="tooltip-label" aria-haspopup="true" class="tip-top" title="Ihr freundlicher Hilfetext hier">
-			<img src="images/icons/help.svg" alt="help"></div>
+<!-- 		<h1>1 - Demographische Daten</h1> -->
 		<form>				
 			<div class="row">
 			   	<div class="large-2 columns">
@@ -68,14 +66,6 @@
 			 	 	<input type="text"/ placeholder="...">
 				</div>
             </div>  
-			<div class="row">
-            	<div class="large-10 columns">
-				</div>
-				<div class="large-2 columns">
-                	<a href="#" class="button [tiny small large]">Speichern</a>
-				</div>
-			</div>
-          </div>
     	</form>
 	</div>
 </div>

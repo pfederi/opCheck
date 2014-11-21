@@ -1,3 +1,45 @@
-@import "settings";
-@import "foundation";
+// -dj - accordion Anpassungen für opCheck
+.accordion {
+	dd {
+		border-bottom: 1px solid #ccc;
+		&:last-of-type {
+			border-bottom: 0;
+			.content {
+				background: transparent;
+				background-image: none !important; 
+			}	
+		}
+	}
+	.content {
+		padding-left: 50px !important;
+		background: transparent url('../images/design/pathLead.png') 18px 0 repeat-y !important;
+	}
+}
+// -dj - iconstep war ursprünglich für die Indikatoren gedacht um anzuzeigen wo im Prozess ich mich befinde
+.iconStep {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 11px;
+	font-size: 0.78571rem;
+	font-weight: bold;
+	text-align: center;
+	width: 25px;
+	height: 25px;
+	line-height: 21px;
+	border: 2px solid #ccc;
+	border-radius: 20px;
+	background: #fff;
+	margin: -2px 10px 0 0;
 
+	&.active {
+		background-color: #99d6c4;
+	}
+}	
+// -dj - forminfo ist für die Informationseinblendung auf der Seite, in jedem Bereich des Formulars (im Akkordeon)
+.formInfo {
+	p {
+		font-size: .875em;
+		line-height: 1.2em;
+	}
+}
+ 
