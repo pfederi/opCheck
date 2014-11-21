@@ -145,7 +145,7 @@
             	<div class="large-10 columns">
 				</div>
 				<div class="large-2 columns">
-                <a href="#" class="button [tiny small large]">Speichern</a>
+                	<a href="#" class="button [tiny small large]">Speichern</a>
 				</div>
 			</div>
           </div>
