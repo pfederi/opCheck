@@ -103,6 +103,7 @@
 			<div class="large-5 columns" data-equalizer-watch></div>
 		</div>
 	</div>
+	<span class="intro-link"></span>
 </section>
 <hr>
 <!-- Wer ist opCheck -->
@@ -126,6 +127,23 @@
 		</div>
 	</div>
 </section>
+
+ <script>
+$(document).ready(function () {
+	$('.intro-link').on('click',function()
+		{
+		if ($('.ablauf').css('height') == '460px')
+		$('.ablauf').animate({height: $('.ablauf')[0].scrollHeight}, 500,"swing",function(){
+		$('.ablauf').css('padding-bottom','120px'),
+		$('.intro-link').css('background-image','url(/images/icons/arrow-up.svg)')});
+		else
+			$('.ablauf').animate({height: "460px"}, 500,"swing",function(){
+			$('.intro-link').css('background-image','url(/images/icons/arrow-down.svg)')});
+		}
+	);
+});
+</script>
+
 
 <?php include("../includes/footer.inc.php"); ?>
 

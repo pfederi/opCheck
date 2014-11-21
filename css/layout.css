@@ -15963,8 +15963,7 @@ header button {
   font-size: 1.5em;
   line-height: 1.2em; }
 
-.intro-link,
-.toggle-link {
+.intro-link {
   position: absolute;
   bottom: 0px;
   display: block;
@@ -15982,8 +15981,7 @@ header button {
   background-repeat: no-repeat;
   background-size: 50px;
   background-color: #fff; }
-  .intro-link:hover,
-  .toggle-link:hover {
+  .intro-link:hover {
     opacity: 0.8; }
 
 footer ul {
