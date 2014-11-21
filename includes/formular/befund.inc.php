@@ -1,7 +1,7 @@
 <div class="row">
 	<div class="large-12 columns">
-  		<h1>3 - Befund</h1>
-  		<form>
+<!--   		<h1>3 - Befund</h1>
+ -->  		<form>
   			<div class="large-6 columns">
               <label>Aktueller Befund
                 <textarea placeholder="Kreuzbandriss"></textarea>

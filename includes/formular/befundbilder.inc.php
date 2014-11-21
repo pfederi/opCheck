@@ -1,7 +1,7 @@
 <div class="row">
 	<div class="large-12 columns">
-  		<h1>4- Befundbilder</h1>
-  		<form>
+<!--   		<h1>4- Befundbilder</h1>
+ -->  		<form>
   			<div class="row">
               <div class="large-12 columns">
                 <label>Möchten Sie die Befundbilder hochladen oder per Post schicken</label>

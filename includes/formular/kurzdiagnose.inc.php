@@ -1,7 +1,7 @@
 <div class="row">
 	<div class="large-12 columns">
-	  <h1>2- Kurzdiagnose</h1>
-	  <form>
+<!-- 	  <h1>2- Kurzdiagnose</h1>
+ -->	  <form>
 	      <div class="row">
               <div class="large-4 columns">         
                 <label>Fachbereich</label>
@@ -12,7 +12,7 @@
                   <option value="viszeral">Viszeralchirurgie</option>
                   <option value="allgemein">Allgemeinchirurgie</option>
                 </select>
-                </label>
+
               </div>
               <div class="large-4 columns">                 
                 <label>Diagnose</label>
@@ -25,7 +25,7 @@
                   <option value="hand">Hand</option>
                   <option value="andere">andere</option>
                 </select>
-                </label>
+
               </div>
               <div class="large-4 columns">    
                  <label>Befund</label>
@@ -36,7 +36,6 @@
                   <option value="kniegelenksentzuendung">Kniegelenksentzündung</option>
                   <option value="andere">andere</option>
                 </select>
-                </label>
               </div>
           </div> 
 	      <div class="row">
@@ -45,7 +44,7 @@
                 <input type="radio" name="op-ja" value="Ja" id="op-ja"><label for="op-ja">Ja</label>
                 <input type="radio" name="op-nein" value="Nein" id="op-nein"><label for="op-nein">Nein</label>
               </div>
-          </div>
+        </div>
 	      <div class="row">
             <div class="large-6 columns">
               <label>Gründe für eine Zweitmeinung</label>
@@ -57,7 +56,7 @@
                 <textarea placeholder="..."></textarea>
               </label>
             </div>
-          </div>
+        </div>
 	      <div class="row">
               <div class="large-10 columns">
                 

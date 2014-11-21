@@ -1,7 +1,7 @@
 <div class="row">
 	<div class="large-12 columns">
-	  <h1>5- Zweitmeinungsarzt</h1>
-	  <form>
+<!-- 	  <h1>5- Zweitmeinungsarzt</h1>
+ -->	  <form>
 	  	<div class="row">
               <div class="large-12 columns">
                 <label>Bevorzugen Sie einen Spezialisten in der Nähe Ihres Wohnortes?</label>
