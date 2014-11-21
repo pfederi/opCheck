@@ -19,9 +19,8 @@
 	</div>
 </footer>
 
-    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
     <script src="../bower_components/foundation/js/foundation.min.js"></script>
     <script src="../js/app.js"></script>
-    <script src="../js/hyphenator/hyphenator-loader-1.1.min.js"></script>
+    
   </body>
 </html>

@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="../css/layout-darko.css" />
     <link rel="stylesheet" href="../css/layout.css" />
     <script src="../bower_components/modernizr/modernizr.js"></script>
+    <script src="../js/hyphenator/hyphenator-loader-1.1.min.js"></script>
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
     <!-- FEEDBACK BUTTON -->
     <script type='text/javascript'>
 	var BugHerdConfig = {
@@ -48,8 +50,8 @@
 		<div class="large-6 medium-6 columns">
 			<button class="login">Login</button>
 			<ul id="lstHauptnavigation">
-				<li><a href="/">für Patienten</a></li>
-				<li><a href="aerzte">für Ärzte</a></li>
+				<li><a href="/">Patienten-Informationen</a></li>
+				<li><a href="aerzte">Ärzte-Zugang</a></li>
 			</ul>
 		</div>
 	</header>
