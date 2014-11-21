@@ -15886,7 +15886,8 @@ header button {
 .surgeon > div {
   position: relative;
   text-align: center;
-  height: 250px; }
+  height: 250px;
+  background: aqua; }
   .surgeon > div h1, .surgeon > div h2 {
     margin: 1em 0 .500em; }
   .surgeon > div h2 {
