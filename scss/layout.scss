@@ -121,4 +121,21 @@ header
 	}
 }
 
-	
+footer
+{
+	ul {
+		float: right;
+		list-style-type: none;
+		
+		li {
+			float: left;
+			border-right: 1px solid #333;
+			padding: 0 0.500em;
+			
+			&:last-child {
+				border: transparent;
+				padding: 0 0 0.500 0;
+			}
+		}
+	}
+}

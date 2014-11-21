@@ -15930,3 +15930,14 @@ header button {
         text-align: center;
         font-weight: 600;
         background-color: #fff; }
+
+footer ul {
+  float: right;
+  list-style-type: none; }
+  footer ul li {
+    float: left;
+    border-right: 1px solid #333;
+    padding: 0 0.500em; }
+    footer ul li:last-child {
+      border: transparent;
+      padding: 0 0 0.500 0; }
