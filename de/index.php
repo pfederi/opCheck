@@ -13,7 +13,7 @@
 <!-- Call to Action Button -->
 <section class="row calltoaction">
 	<div class="large-12 columns">
-		<button onclick="window.location.href='zweitmeinung'">Zweitmeinung bestellen</button>
+		<button onclick="window.location.href='anmelden'">Zweitmeinung bestellen</button>
 	</div>
 </section>
 <hr>
@@ -135,10 +135,13 @@ $(document).ready(function () {
 		if ($('.ablauf').css('height') == '460px')
 		$('.ablauf').animate({height: $('.ablauf')[0].scrollHeight}, 500,"swing",function(){
 		$('.ablauf').css('padding-bottom','120px'),
+		$('.intro-link').css('opacity','1'),
 		$('.intro-link').css('background-image','url(/images/icons/arrow-up.svg)')});
 		else
 			$('.ablauf').animate({height: "460px"}, 500,"swing",function(){
-			$('.intro-link').css('background-image','url(/images/icons/arrow-down.svg)')});
+			$('.intro-link').css('background-image','url(/images/icons/arrow-down.svg)'),
+			$('.intro-link').css('opacity','1'),
+			$('.intro-link:hover').css('opacity','0.8')});
 		}
 	);
 });

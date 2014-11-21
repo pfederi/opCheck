@@ -48,7 +48,7 @@
 			<a href="/" class="logo">opCheck</a>
 		</div>
 		<div class="large-6 medium-6 columns">
-			<button class="login">Login</button>
+			<button onclick="window.location.href='login'">Login</button>
 			<ul id="lstHauptnavigation">
 				<li><a href="/">Patienten-Informationen</a></li>
 				<li><a href="aerzte">Ärzte-Zugang</a></li>
