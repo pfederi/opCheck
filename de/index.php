@@ -3,9 +3,14 @@
 <!-- Infotext -->
 <section class="row surgeon">
 	<div class="large-12 columns large-centered">
+<<<<<<< HEAD
 		<h1>Unsicher was Ihren ersten Befund angeht?</h1>
 		<h2>opCheck hilft Ihnen bei der Suche nach einem Zweitmeinungsarzt</h2>
 		<img src="/images/logos/surgeon-sw.png" alt="surgeon" />
+=======
+		<h1>Lorem Ipsum dolor sit amet</h1>
+		<a href="/de/zweitmeinung.php">Zweitmeinung bestellen</a>
+>>>>>>> FETCH_HEAD
 	</div>
 </section>
 <hr>
