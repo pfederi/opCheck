@@ -3,7 +3,7 @@
 		<h1>1 - Demographische Daten</h1>
 		<form>				
 			<div class="row">
-			   	<div class="large-2 columns">        	
+			   	<div class="large-2 columns">
 					<label>Anrede</label>
 					<input type="text"/>
 			   	</div>
