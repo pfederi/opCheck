@@ -1,10 +1,18 @@
 <div class="row">
 	<div class="large-12 columns">
-	  <h1>2- Kurzdiagnose</h1>
+	  <h1>2- Kurzdiagnose
+      <div data-tooltip aria-haspopup="true" class="tip-top" title="Einordnung Ihrer bestehenden Diagnose.">
+      <img src="images/icons/help.svg" alt="help">
+      </div>
+    </h1>
+
 	  <form>
 	      <div class="row">
               <div class="large-4 columns">         
-                <label>Fachbereich</label>
+                <label class="labelTitle">Fachbereich</label>    
+                  <div data-tooltip aria-haspopup="true" class="tip-top" title="Wählen Sie zunächst das Fachgebiet.">
+                  <img src="images/icons/help.svg" alt="help">
+                  </div>
                 <select>
                   <option value="#">...</option>
                   <option value="herz-gefaess">Herz/Gefässerkrankungen</option>
@@ -15,7 +23,10 @@
                 </label>
               </div>
               <div class="large-4 columns">                 
-                <label>Diagnose</label>
+                <label class="labelTitle">Bereich</label>
+                  <div data-tooltip aria-haspopup="true" class="tip-top" title="Welcher Bereich ist betroffen?">
+                  <img src="images/icons/help.svg" alt="help">
+                  </div>
                 <select>
                   <option value="#">...</option>
                   <option value="herz-gefaess">Knie</option>
@@ -28,7 +39,10 @@
                 </label>
               </div>
               <div class="large-4 columns">    
-                 <label>Befund</label>
+                 <label class="labelTitle">Befund</label>
+                  <div data-tooltip aria-haspopup="true" class="tip-top" title="Welche Diagnose hat Ihr Arzt gestellt?">
+                  <img src="images/icons/help.svg" alt="help">
+                  </div>
                  <select>
                   <option value="#">...</option>
                   <option value="meniskuslaesion">Meniskusläsion</option>
@@ -42,10 +56,12 @@
 	      <div class="row">
               <div class="large-12 columns">
                 <label>Wurde Ihnen vom Spezialisten eine OP empfohlen?</label>
-                <input type="radio" name="op-ja" value="Ja" id="op-ja"><label for="op-ja">Ja</label>
-                <input type="radio" name="op-nein" value="Nein" id="op-nein"><label for="op-nein">Nein</label>
+                <input type="radio" name="spezialist" value="Ja" id="op-ja">
+                <label for="op-ja">Ja</label>
+                <input type="radio" name="spezialist" value="Nein" id="op-nein">
+                <label for="op-nein">Nein</label>
               </div>
-          </div>
+        </div>
 	      <div class="row">
             <div class="large-6 columns">
               <label>Gründe für eine Zweitmeinung</label>

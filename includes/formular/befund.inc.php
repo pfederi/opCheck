@@ -1,8 +1,13 @@
 <div class="row">
 	<div class="large-12 columns">
-  		<h1>3 - Befund</h1>
+  		<h1>3- Befund
+        <div data-tooltip aria-haspopup="true" class="tip-top" title="Ausführliche Angaben zu Ihrem Befund und Ihrem aktuellen Gesundheitsstatus.">
+        <img src="images/icons/help.svg" alt="help">
+        </div>
+      </h1>
   		<form>
-  			<div class="large-6 columns">
+          <div class="row">
+  			     <div class="large-4 columns">
               <label>Aktueller Befund
                 <textarea placeholder="Kreuzbandriss"></textarea>
               </label>
@@ -21,7 +26,8 @@
               <label>Aktuelle Beschwerden
                 <textarea placeholder="..."></textarea>
               </label>
-            </div>
+              </div>
+          </div>
 
             <div class="row">
               <div class="large-10 columns">
