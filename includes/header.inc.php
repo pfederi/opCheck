@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>opCheck</title>
     <link rel="stylesheet" href="../css/app.css" />
+    <link rel="stylesheet" href="../css/layout-kate.css" />
+    <link rel="stylesheet" href="../css/layout-darko.css" />
     <link rel="stylesheet" href="../css/layout.css" />
     <script src="../bower_components/modernizr/modernizr.js"></script>
   </head>
