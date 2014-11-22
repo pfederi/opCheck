@@ -3,7 +3,7 @@
 <!-- Infotext -->
 <section class="row surgeon">
 	<div class="large-12 columns large-centered">
-		<h1>Unsicher was Ihren ersten Befund angeht?</h1>
+		<h1>Unsicher über Ihren ersten Befund?</h1>
 		<h2>opCheck hilft Ihnen bei der Suche nach einem Zweitmeinungsarzt</h2>
 		<img src="/images/logos/surgeon-sw.png" alt="surgeon" />
 	</div>
@@ -111,18 +111,19 @@
 	<div class="large-12 columns">
 		<div class="row">
 			<div class="large-12 columns">
-				<h3>Wer ist opCheck?</h3>
+				<h3>Wer steht hinter opCheck?</h3>
 				
 			</div>
 		</div>
 		<div class="row">
 			<div class="large-6 columns">
-				<h4>Lorem Ipsum</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<h4>opCheck AG</h4>
+				<p>Der Geschäftszweck der opCheck AG ist die Vermittlung von renommierten Fachärzten aus der Schweiz für die Erstellung medizinischer Zweitmeinungen. Die Zahl der Operationen steigt schweiz- und europaweit seit Jahren kontinuierlich an. Eine Untersuchung der OECD 2013 zeigte, dass es in der Schweiz mehr Operationen gibt als in den meisten anderen Industrienationen.</p>
+				<p>Das Ziel von opCheck ist ein vollumfänglich informierter Patient. Vor der Durchführung einer Operation gilt es Nutzen aber auch Risiken bestmöglich gegeneinander abzuwägen. Eine neutrale Zweitmeinung kann dem Patienten bei der Entscheidungsfindung helfen. opCheck legt grossen Wert auf <a href="privacy-policy">Datenschutz</a> - alle Daten werden ausschliesslich gesichert übermittelt und nur auf Schweizer Servern gespeichert - sowie ein gutes Verhältnis von Arzt und Patient. </p>
 			</div>
 			<div class="large-6 columns">
-				<h4>Lorem Ipsum</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<h4>Adjumed Services AG</h4>
+				<p>Die <a href="http://www.adjumed.ch">Adjumed Services AG</a> ist eine bekannte Grösse in der medizinischen Qualitätssicherung. Sie verfügt über annähernd 20 Jahre Erfahrung in der Qualitätssicherung und betreibt zur Zeit 15 nationale und internationale Register, unter anderem alle Projekte für die <a href="http://www.aqc.ch">AQC - Arbeitsgemeinschaft für die Qualitätssicherung in der Chirurgie</a>. Das Motto der Adjumed lautet:  „Unsere Aufgabe ist, das Gute in der Medizin zu fördern und allen Beteiligten Sicherheit zu geben“.</p>
 			</div>
 		</div>
 	</div>

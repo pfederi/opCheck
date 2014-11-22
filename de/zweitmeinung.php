@@ -14,7 +14,9 @@
 					<div class="large-3 columns">
 						<div class="formInfo">
 							<p>
-								Für die erste PT-Variante werden enge Richtlinien definiert. Foundation-Klassen werden in der Original-Version verwendet.
+								Ihre Demographischen Daten werden zur Verwaltung des Falles benötigt.</p> 
+								<p>Die Telefondaten dienen zur Kontaktaufnahme des Arztes mit Ihnen.</p> 
+								<p>Die Angaben zu Geburtsdatum, Grösse und Gewicht sind wichtige Vorabinformationen für den Arzt.
 							</p>						
 						</div>					
 					</div>
@@ -37,7 +39,8 @@
 					<div class="large-3 columns">
 						<div class="formInfo">
 							<p>
-								Für die erste PT-Variante werden enge Richtlinien definiert. Foundation-Klassen werden in der Original-Version verwendet.
+								Hier ordnen Sie Ihren Fall dem richtigen Fachgebiet zu.</p> 
+								<p>Die Grundangaben helfen opCheck dabei, den richtigen Spezialisten für Ihre Zweitmeinung zu finden.
 							</p>						
 						</div>
 					</div>

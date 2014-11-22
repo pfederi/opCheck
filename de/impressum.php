@@ -26,7 +26,8 @@
 				<h2>Vertreten durch den Geschäftsführer</h2>
 			</div>
 			<div class="large-8 columns">
-				<p>Dr. Luzi Rageth</p>
+				<p>Luzi Rageth</p>
+				<p>Dr. oec HSG MA</p>
 			</div>
 		</div>
 		</div>

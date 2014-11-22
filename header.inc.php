@@ -1,4 +1,4 @@
-  <!doctype html>
+<!doctype html>
 <html class="no-js" lang="de">
   <head>
     <meta charset="utf-8" />
@@ -48,7 +48,7 @@
 			<a href="/" class="logo">opCheck</a>
 		</div>
 		<div class="large-6 medium-6 columns">
-			<button onclick="window.location.href='login'">Anmelden</button>
+			<button class="login">Login</button>
 			<ul id="lstHauptnavigation">
 				<li><a href="/">Patienten-Informationen</a></li>
 				<li><a href="aerzte">Ärzte-Zugang</a></li>
