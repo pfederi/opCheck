@@ -28,3 +28,23 @@ $('.fourthAccordSave').click(function() {
 	$('#panel4b').removeClass('active');
 	$('#panel4b').parent().removeClass('active');
 });
+
+$('.lastAccordSave').click(function() {
+		var daddy = $('#panel5b').parent();
+		var hidden = $('.contolsWrap.hiddenObject');
+		if (daddy.hasClass('active')){
+			$('#panel5b').parent().removeClass('active');
+			$('#panel5b').removeClass('active');
+			hidden.css('display', 'block');
+		}
+
+		console.log('eigentlich sötters checke!');
+});
+
+/*function login() {
+	war go = $("#loginWeiter");
+	go.click(function(){
+		window.location.href  = "verifizierung"; 
+    	event.preventDefault();
+	}).delay( 800 );
+}*/

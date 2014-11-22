@@ -1,6 +1,6 @@
 <?php include("../includes/header.inc.php"); ?>
 
-<div class="row">
+<div class="row margin-bottom-40">
 	<div class="large-12 columns">
 		<dl class="accordion" data-accordion="">
 		  <dd class="accordion-navigation">
@@ -113,9 +113,24 @@
 
 					</div>
 				</div>
+				<div class="row">
+					<div class="large-4 large-centered columns">
+						<a href="#panel5b" class="button lastAccordSave">Speichern</a>
+					</div>
+				</div>				
 				</div>
 		  </dd>
 		</dl>
+	</div>
+</div>
+<div class="row contolsWrap hiddenObject">
+	<div class="large-12 columns">
+		<div class="controls abschluss">
+			<div class="row">
+				<div class="large-6 columns"><a href="#" class="button expand">Formular absenden</a></div>
+				<div class="large-6 columns"><a href="#" class="button expand white">Abbrechen</a></div>
+			</div>
+		</div>
 	</div>
 </div>
 

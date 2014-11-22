@@ -17,6 +17,10 @@
   background: transparent url("../images/design/pathLead.png") 18px 0 repeat-y !important;
 }
 
+.hiddenObject {
+  display: none;
+}
+
 /* line 19, ../scss/layout-darko.scss */
 .iconStep {
   display: inline-block;
@@ -42,4 +46,51 @@
 .formInfo p {
   font-size: .875em;
   line-height: 1.2em;
+}
+
+/* line 45, ../scss/layout-darko.scss */
+.button.expand.white {
+  background-color: white;
+  color: #0078a0;
+  text-decoration: underline;
+}
+
+/* line 51, ../scss/layout-darko.scss */
+.margin-bottom-5 {
+  margin-bottom: 5px !important;
+}
+
+/* line 54, ../scss/layout-darko.scss */
+.margin-bottom-10 {
+  margin-bottom: 10px !important;
+}
+
+/* line 57, ../scss/layout-darko.scss */
+.margin-bottom-15 {
+  margin-bottom: 15px !important;
+}
+
+/* line 60, ../scss/layout-darko.scss */
+.margin-bottom-20 {
+  margin-bottom: 20px !important;
+}
+
+/* line 63, ../scss/layout-darko.scss */
+.margin-bottom-25 {
+  margin-bottom: 25px !important;
+}
+
+/* line 66, ../scss/layout-darko.scss */
+.margin-bottom-30 {
+  margin-bottom: 30px !important;
+}
+
+/* line 69, ../scss/layout-darko.scss */
+.margin-bottom-35 {
+  margin-bottom: 35px !important;
+}
+
+/* line 72, ../scss/layout-darko.scss */
+.margin-bottom-40 {
+  margin-bottom: 40px !important;
 }
