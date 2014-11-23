@@ -15864,6 +15864,9 @@ th.hide-for-touch {
 
   th.show-for-print {
     display: table-cell !important; } }
+body {
+  margin-top: 70px; }
+
 .hyphenate {
   text-align: left;
   -webkit-hyphens: auto;
@@ -15901,7 +15904,7 @@ h3 {
 header {
   background: rgba(255, 255, 255, 0.9);
   height: 70px;
-  border-bottom: 1px solid #999; }
+  border-bottom: 1px solid #bbb; }
   header .logo {
     font-size: 2em; }
   header #lstHauptnavigation {
