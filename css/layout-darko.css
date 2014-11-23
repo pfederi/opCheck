@@ -17,10 +17,6 @@
   background: transparent url("../images/design/pathLead.png") 18px 0 repeat-y !important;
 }
 
-.hiddenObject {
-  display: none;
-}
-
 /* line 19, ../scss/layout-darko.scss */
 .iconStep {
   display: inline-block;
@@ -55,42 +51,47 @@
   text-decoration: underline;
 }
 
-/* line 51, ../scss/layout-darko.scss */
+/* line 54, ../scss/layout-darko.scss */
 .margin-bottom-5 {
-  margin-bottom: 5px !important;
+  margin-bottom: 5px;
 }
 
 /* line 54, ../scss/layout-darko.scss */
 .margin-bottom-10 {
-  margin-bottom: 10px !important;
+  margin-bottom: 10px;
 }
 
-/* line 57, ../scss/layout-darko.scss */
+/* line 54, ../scss/layout-darko.scss */
 .margin-bottom-15 {
-  margin-bottom: 15px !important;
+  margin-bottom: 15px;
 }
 
-/* line 60, ../scss/layout-darko.scss */
+/* line 54, ../scss/layout-darko.scss */
 .margin-bottom-20 {
-  margin-bottom: 20px !important;
+  margin-bottom: 20px;
 }
 
-/* line 63, ../scss/layout-darko.scss */
+/* line 54, ../scss/layout-darko.scss */
 .margin-bottom-25 {
-  margin-bottom: 25px !important;
+  margin-bottom: 25px;
 }
 
-/* line 66, ../scss/layout-darko.scss */
+/* line 54, ../scss/layout-darko.scss */
 .margin-bottom-30 {
-  margin-bottom: 30px !important;
+  margin-bottom: 30px;
 }
 
-/* line 69, ../scss/layout-darko.scss */
+/* line 54, ../scss/layout-darko.scss */
 .margin-bottom-35 {
-  margin-bottom: 35px !important;
+  margin-bottom: 35px;
 }
 
-/* line 72, ../scss/layout-darko.scss */
+/* line 54, ../scss/layout-darko.scss */
 .margin-bottom-40 {
-  margin-bottom: 40px !important;
+  margin-bottom: 40px;
+}
+
+/* line 54, ../scss/layout-darko.scss */
+.margin-bottom-45 {
+  margin-bottom: 45px;
 }
