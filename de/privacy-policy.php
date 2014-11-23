@@ -7,7 +7,7 @@
 			<div class="large-4 columns">
 				<a href="javascript:void(0)" onclick="parent.$('html, body').animate({ scrollTop: parent.$('#Grundprinzien').offset().top},'slow');">
 					<div class="panel" data-equalizer-watch>
-						<p>Grundprinzipien der Erhebung und Verarbeitung von personenbezogenen Daten durch opCheck</p>
+						<p>Unsere Grundprinzipien im Umgang mit Ihren Daten</p>
 						<img src="/images/icons/arrow-down.svg" alt="öffnen" />
 					</div>
 				</a>
@@ -15,7 +15,7 @@
 			<div class="large-4 columns">
 				<a href="javascript:void(0)" onclick="parent.$('html, body').animate({ scrollTop: parent.$('#Speicherung').offset().top},'slow');">
 					<div class="panel" data-equalizer-watch>
-						<p>Speicherung der Daten</p>
+						<p>Datenerhebung und Weiterverwendung</p>
 						<img src="/images/icons/arrow-down.svg" alt="öffnen" />
 					</div>
 				</a>
@@ -23,7 +23,7 @@
 			<div class="large-4 columns">
 				<a href="javascript:void(0)" onclick="parent.$('html, body').animate({ scrollTop: parent.$('#Datenerhebung').offset().top},'slow');">
 					<div class="panel" data-equalizer-watch>
-						<p>Anonyme Datenerhebung und -verarbeitung</p>
+						<p>Wer hat Zugriff auf Ihre Daten?</p>
 						<img src="/images/icons/arrow-down.svg" alt="öffnen" />
 					</div>
 				</a>
@@ -33,7 +33,7 @@
 			<div class="large-4 columns">
 				<a href="javascript:void(0)" onclick="parent.$('html, body').animate({ scrollTop: parent.$('#Zugriff').offset().top},'slow');">
 					<div class="panel" data-equalizer-watch>
-						<p>Wer hat Zugriff auf Ihre personenbezogenen Daten?</p>
+						<p>Verschlüsselung personenbezogener Daten</p>
 						<img src="/images/icons/arrow-down.svg" alt="öffnen" />
 					</div>
 				</a>
@@ -41,7 +41,7 @@
 			<div class="large-4 columns">
 				<a href="javascript:void(0)" onclick="parent.$('html, body').animate({ scrollTop: parent.$('#Datenuebermittlung').offset().top},'slow');">
 					<div class="panel" data-equalizer-watch>
-						<p>An wen und auf welchem Weg werden die Daten übermittelt?</p>
+						<p>Datensicherung und sichere Speicherung auf externen Systemen</p>
 						<img src="/images/icons/arrow-down.svg" alt="öffnen" />
 					</div>
 				</a>
@@ -49,7 +49,7 @@
 			<div class="large-4 columns">
 				<a href="javascript:void(0)" onclick="parent.$('html, body').animate({ scrollTop: parent.$('#Sicherheit').offset().top},'slow');">
 					<div class="panel" data-equalizer-watch>
-						<p>Sicherheit</p>
+						<p>Haben Sie Fragen zum Thema Datensicherheit?</p>
 						<img src="/images/icons/arrow-down.svg" alt="öffnen" />
 					</div>
 				</a>
@@ -62,57 +62,61 @@
 		<div class="large-12 colums">
 			<div class="row">
 			<div class="large-4 columns" id="Grundprinzien">
-				<h2>Grundprinzipien der Erhebung und Verarbeitung von personenbezogenen Daten durch opCheck</h2>
+				<h2>Unsere Grundprinzipien im Umgang mit Ihren Daten</h2>
 			</div>
 			<div class="large-8 columns">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>opCheck legt besonderen Wert auf den ethisch sauberen Umgang mit Patientendaten. Zu diesem Zweck haben wir verschiedene interne Regeln aufgestellt, denen jeder Mitarbeiter verpflichtet ist.</p>
+				<p>Unsere Spezialisten sind im Rahmen ihrer medizinischen Tätigkeit  ebenfalls zur Verschwiegenheit verpflichtet.</p>
 			</div>
 		</div>
 			<hr>
 			<div class="row">
 			<div class="large-4 columns" id="Speicherung">
-				<h2>Speicherung der Daten</h2>
+				<h2>Datenerhebung und Weiterverwendung</h2>
 			</div>
 			<div class="large-8 columns">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Für die Beurteilung ihres Falles ist es unabdingbar, dass der Spezialist ihre Befunddaten Vorgänger und vollständig erhält. Er ist dann auf Ihre Fragen im persönlichen Beratungsgespräch optimal vorbereitet. </p>
+				<p>Ihre Daten verbleiben dabei im System von opCheck. Sie werden ausschliesslich zur Zuweisung eines Spezialisten vom opCheck-Team gesichtet. Der Spezialist analysiert Ihre Daten im Rahmen der Befund-Erstellung.</p>
+				<p>Nach Abgabe der Zweitmeinung haben Sie die Möglichkeit Ihre Daten selbstständig von der Plattform zu löschen. Erfolgt dies nicht, werden die Daten sechs Monate nach Bekundung automatisch von der Plattform gelöscht.</p>
 			</div>
 		</div>
 			<hr>
 			<div class="row">
 			<div class="large-4 columns" id="Datenerhebung">
-				<h2>Anonyme Datenerhebung und -verarbeitung</h2>
+				<h2>Wer hat Zugriff auf Ihre Daten?</h2>
 			</div>
 			<div class="large-8 columns">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Mitarbeiter des opCheck-Teams zur Zuweisung von Spezialisten und weiterer administrativen Tätigkeiten.</p>
+				<p>Der von Ihnen ausgewählte Spezialist im Rahmen der Befundung.</p>
+				<p>opCheck verwaltet sämtliche administrativen Tätigkeiten selbst. Eine Weitergabe der Adressdaten zu weiblichen Zwecken erfolgt nicht.</p>
 			</div>
 		</div>
 			<hr>
 			<div class="row">
 			<div class="large-4 columns" id="Zugriff">
-				<h2>Wer hat Zugriff auf Ihre personenbezogenen Daten?</h2>
+				<h2>Verschlüsselung personenbezogener Daten</h2>
 			</div>
 			<div class="large-8 columns">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Ihre personenenbezogenen Daten werden intern bei opCheck bereits verschlüsselt gespeichert. Nur Mitarbeiter, die unmittelbar mit Ihrem Fall vertraut sind, haben Zugriff.</p>
+				<p>Alle Eingaben und Recherchen von Ihnen auf der opCheck-Plattform erfolgen mittels SSL-verschlüsselter Kommunikation.</p>
 			</div>
 		</div>
 			<hr>
 			<div class="row">
 			<div class="large-4 columns" id="Datenuebermittlung">
-				<h2>An wen und auf welchem Weg werden die Daten übermittelt?</h2>
+				<h2>Datensicherung und sichere Speicherung auf externen Systemen</h2>
 			</div>
 			<div class="large-8 columns">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>opCheck verwendet für externe Backups ausschliesslich Schweizer Rechenzentren und Cloud-Services aus der Schweiz. Alle Backups erfolgen verschlüsselt (Norm tbd).</p>
 			</div>
 		</div>
 			<hr>
 			<div class="row">
 			<div class="large-4 columns" id="Sicherheit">
-				<h2>Sicherheit</h2>
+				<h2>Haben Sie Fragen zum Thema Datensicherheit?</h2>
 			</div>
 			<div class="large-8 columns">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Kommen Sie gern auf uns zu. Bitte schreiben Sie uns unter <a href="mailto:sicherheit@opcheck.ch">sicherheit@opcheck.ch</a> oder rufen Sie uns unter 044 123 45 67 an.</p>
 			</div>
 		</div>
 		</div>
