@@ -41,10 +41,10 @@ $('.lastAccordSave').click(function() {
 		console.log('eigentlich sötters checke!');
 });
 
-/*function login() {
-	war go = $("#loginWeiter");
+function login() {
+	var go = $("#loginWeiter");
 	go.click(function(){
 		window.location.href  = "verifizierung"; 
     	event.preventDefault();
 	}).delay( 800 );
-}*/
+}

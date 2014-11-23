@@ -2,6 +2,8 @@
 
 <div class="row margin-bottom-40">
 	<div class="large-12 columns">
+		<h1>Zweitmeinung bestellen</h1>
+		<p>Bitte füllen Sie die untenstehenden Formulare aus. Sie haben jederzeit die Möglichkeit die eingegebenen Daten zu speichern und zu einem späteren Zeitpunkt wieder einzusteigen.</p>
 		<dl class="accordion" data-accordion="">
 		  <dd class="accordion-navigation">
 		  	<a href="#panel1b"><div class="left progress-counter"><span class="iconStep">1</span></div> Demographische Daten</a> 

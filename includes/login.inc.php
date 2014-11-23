@@ -9,5 +9,11 @@
 		<input type="tel" required placeholder="079 123 45 67">
 		<small class="error">Um Ihnen Zugriff auf die Plattform zu gewähren, benötigen wir eine gültige Natel-Nummer</small>
 	</div>
-	<button type="submit" id="loginWeiter">Ja, Zweitmeinung bestellen</button> <button type="submit" id="abbrechen">Abbrechen</button>
+	<div class="row">
+		<div class="large-9 columns">
+			<button type="submit" id="loginWeiter">Ja, Zweitmeinung bestellen</button>
+		</div>
+		<div class="large-3 columns">
+			<a href="#" class="button expand white">Abbrechen</a>
+		</div>
 </form>

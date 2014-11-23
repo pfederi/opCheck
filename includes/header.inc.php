@@ -50,8 +50,8 @@
 		<div class="large-6 medium-6 columns">
 			<button onclick="window.location.href='login'">Anmelden</button>
 			<ul id="lstHauptnavigation">
-				<li><a href="/">Patienten-Informationen</a></li>
-				<li><a href="aerzte">Ärzte-Zugang</a></li>
+				<li><a href="patienten-informationen">Patienten-Informationen</a></li>
+				<li><a href="aerzte-zugang">Ärzte-Zugang</a></li>
 			</ul>
 		</div>
 	</header>

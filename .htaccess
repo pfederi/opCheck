@@ -4,7 +4,8 @@ RewriteEngine on
 RewriteBase /
 
 RewriteRule ^/?$ /de/index.php [L]
-
+RewriteRule ^patienten-informationen/?$ /de/patienten-informationen.php [L]
+RewriteRule ^aerzte-zugang/?$ /de/aerzte-zugang.php [L]
 RewriteRule ^anmelden/?$ /de/anmelden.php [L]
 RewriteRule ^login/?$ /de/login.php [L]
 RewriteRule ^verifizierung/?$ /de/verifizierung.php [L]
