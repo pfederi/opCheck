@@ -43,16 +43,18 @@
   </head>
   <body>
 
-	<header class="row">
-		<div class="large-6 medium-6 columns">
-			<a href="/" class="logo">opCheck</a>
-		</div>
-		<div class="large-6 medium-6 columns">
-			<button onclick="window.location.href='login'">Anmelden</button>
-			<ul id="lstHauptnavigation">
-				<li><a href="patienten-informationen">Patienten-Informationen</a></li>
-				<li><a href="aerzte-zugang">Ärzte-Zugang</a></li>
-			</ul>
+	<header class="fixed">
+		<div class="row">
+			<div class="large-6 medium-6 columns">
+				<a href="/" class="logo">opCheck</a>
+			</div>
+			<div class="large-6 medium-6 columns">
+				<button onclick="window.location.href='login'">Anmelden</button>
+				<ul id="lstHauptnavigation">
+					<li><a href="patienten-informationen">Patienten-Informationen</a></li>
+					<li><a href="aerzte-zugang">Ärzte-Zugang</a></li>
+				</ul>
+			</div>
 		</div>
 	</header>
 	<hr>

@@ -25,8 +25,31 @@ h3
 	background: #fff;
 }
 
+
+.fixed {
+  position: fixed;
+  top:0;
+  left:0;
+  right: 0;
+  margin: 0 auto;
+  width: 100%;
+  z-index: 50;
+ }
+ 
+ .sticky
+ {
+	 background: rgba(255,255,255,0.9);
+	 &.fixed
+	 {
+		 top: 130px;
+	 }
+ }
+
 header
 {
+	background: rgba(255,255,255,0.9);
+	height: 70px;
+	border-bottom: 1px solid #999;
 	
 	.logo
 	{
@@ -59,7 +82,7 @@ header
 	{
 		position: relative;
 		text-align: center;
-		height: 250px;
+		height: 270px;
 		
 		h1, h2
 		{
@@ -70,29 +93,33 @@ header
 		{
 			margin: 0;
 		}
-		
-		img {
-			position: absolute;
-			bottom: -70px;
-			left: 0;
-			right: 0;
-			margin: 0 auto;
-			width: 100px;
-			text-align: center;
-		}
 	}
 }
 
 .calltoaction
 {
+	margin-top: -60px;
+	
 	> div
 	{
 		text-align: center;
+		height: 150px;
 		
 		button {
-			margin: 3em auto 0;
+			margin: 5em auto 0;
 		}
 	}
+	
+	img {
+			position: absolute;
+			top: -50px;
+			left: 0;
+			right: 0;
+			margin: 0 auto;
+			width: 100px;
+			text-align: center;
+			z-index: 150;
+		}
 }
 
 .vorteile

@@ -5,15 +5,17 @@
 	<div class="large-12 columns large-centered">
 		<h1>Unsicher über Ihren ersten Befund?</h1>
 		<h2>opCheck hilft Ihnen bei der Suche nach einem Zweitmeinungsarzt</h2>
-		<img src="/images/logos/surgeon-sw.png" alt="surgeon" />
 	</div>
 </section>
 <hr>
 
 <!-- Call to Action Button -->
-<section class="row calltoaction">
-	<div class="large-12 columns">
-		<button onclick="window.location.href='anmelden'">Zweitmeinung bestellen</button>
+<section class="calltoaction sticky">
+	<div class="row">
+		<div class="large-12 columns">
+			<img src="/images/logos/surgeon-sw.png" alt="surgeon" />
+			<button onclick="window.location.href='anmelden'">Zweitmeinung bestellen</button>
+		</div>
 	</div>
 </section>
 <hr>
@@ -145,6 +147,14 @@ $(document).ready(function () {
 			$('.intro-link:hover').css('opacity','0.8')});
 		}
 	);
+});
+
+$(window).scroll(function(){
+  var sticky = $('.sticky'),
+      scroll = $(window).scrollTop();
+
+  if (scroll >= 265) sticky.addClass('fixed');
+  else sticky.removeClass('fixed');
 });
 </script>
 
