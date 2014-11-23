@@ -7,8 +7,8 @@
 					<label>Anrede</label>
 					<select>
 					<option value="#">...</option>	
-                  	<option value="#">Herr</option>
-                  	<option value="herz-gefaess">Frau</option>
+                  	<option value="herr">Herr</option>
+                  	<option value="frau">Frau</option>
                   </select>
 			   	</div>
 			   	<div class="large-5 columns">            			

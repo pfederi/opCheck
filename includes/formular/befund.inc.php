@@ -9,7 +9,12 @@
                 <textarea placeholder="..."></textarea>
               </label>
               <label>Durch 1. Arzt empfohlene Massnahme
-                <textarea placeholder="..."></textarea>
+                <select>
+                    <option value="...">...</option>  
+                    <option value="op">Operation</option>  
+                    <option value="keine-op">Keine Operation</option>
+                    <option value="keine">Keine Empfehlung - abwarten</option>
+                  </select>
               </label>
               <label>Krankengeschichte
                 <textarea placeholder="..."></textarea>

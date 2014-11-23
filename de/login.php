@@ -2,7 +2,7 @@
 
 <section class="row">
 	<div class="large-6 columns large-centered">
-		<h1>Login</h1>
+		<h1>Anmelden</h1>
 		<p>Loggen Sie sich mit der Angabe Ihrer E-Mailadresse und ihrer Mobiltelefonnummer ein.</p>
 		<?php include("../includes/login.inc.php"); ?>
 	</div>
