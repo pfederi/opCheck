@@ -29,12 +29,20 @@ $('.fourthAccordSave').click(function() {
 	$('#panel4b').parent().removeClass('active');
 });
 
+$('.fifthAccordSave').click(function() {
+	/* Act on the event */
+	$('#panel6b').parent().addClass('active');
+	$('#panel6b').addClass('active');
+	$('#panel5b').removeClass('active');
+	$('#panel5b').parent().removeClass('active');
+});
+
 $('.lastAccordSave').click(function() {
-		var daddy = $('#panel5b').parent();
+		var daddy = $('#panel6b').parent();
 		var hidden = $('.contolsWrap.hiddenObject');
 		if (daddy.hasClass('active')){
-			$('#panel5b').parent().removeClass('active');
-			$('#panel5b').removeClass('active');
+			$('#panel6b').parent().removeClass('active');
+			$('#panel6b').removeClass('active');
 			hidden.css('display', 'block');
 		}
 
