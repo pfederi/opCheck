@@ -115,7 +115,7 @@
 				</div>
 				<div class="row">
 					<div class="large-4 large-centered columns">
-						<a href="#panel5b" class="button lastAccordSave">Speichern & weiter…</a>
+						<a href="#panel5b" class="button fifthAccordSave">Speichern & weiter…</a>
 					</div>
 				</div>				
 				</div>
