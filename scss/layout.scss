@@ -1,6 +1,11 @@
 @import "settings";
 @import "foundation";
 
+body
+{
+	margin-top: 70px;
+}
+
 .hyphenate {
 	text-align: left;
 	-webkit-hyphens: auto;
@@ -27,13 +32,13 @@ h3
 
 
 .fixed {
-  position: fixed;
-  top:0;
-  left:0;
-  right: 0;
-  margin: 0 auto;
-  width: 100%;
-  z-index: 50;
+	position: fixed;
+	top:0;
+	left:0;
+	right: 0;
+	margin: 0 auto;
+	width: 100%;
+	z-index: 50;
  }
  
  .sticky
@@ -49,7 +54,7 @@ header
 {
 	background: rgba(255,255,255,0.9);
 	height: 70px;
-	border-bottom: 1px solid #999;
+	border-bottom: 1px solid #bbb;
 	
 	.logo
 	{

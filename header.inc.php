@@ -55,4 +55,3 @@
 			</ul>
 		</div>
 	</header>
-	<hr>
