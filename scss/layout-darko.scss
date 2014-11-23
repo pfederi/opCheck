@@ -51,5 +51,21 @@
 // -dj - margin mixin, je mehr Einträge im Array $margins, desto mehr benannte margin-bottoms
 $margins: (5,10,15,20,25,30,35,40,45);
 @each $margin in $margins {
-	.margin-bottom-#{$margin} { margin-bottom: #{$margin}px; }
+	.margin-bottom-#{$margin} { margin-bottom: #{$margin}px !important; }
 }
+
+.hidden { display: none; }
+.spinner { 
+	
+	p {
+
+	}
+
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	padding: 20px;
+	margin-left: -12.5%;
+	text-align: center;
+	background-color: #fff;
+ }

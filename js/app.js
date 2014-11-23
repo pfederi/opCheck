@@ -49,10 +49,19 @@ $('.lastAccordSave').click(function() {
 		console.log('eigentlich sötters checke!');
 });
 
-function login() {
-	var go = $("#loginWeiter");
-	go.click(function(){
+
+
+
+$("#loginWeiter").click( function(){
+	var info = $('.spinner');
+
+	if ( info.hasClass("hidden") ){
+		info.removeClass("hidden");
+	}
+	setTimeout(function() {
 		window.location.href  = "verifizierung"; 
-    	event.preventDefault();
-	}).delay( 800 );
-}
+		}, 1500);
+    	event.preventDefault()
+});
+
+

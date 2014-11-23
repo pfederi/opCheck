@@ -123,19 +123,19 @@
 		  <dd class="accordion-navigation contolsWrap hiddenObject">
 		    <a id="goTopanel6b" href="#panel6b"><div class="left progress-counter"><span class="iconStep">6</div> Eingabe abschliessen</a>
 		    <div id="panel6b" class="content">
-				<div class="row">
+				<div class="row margin-bottom-20">
 					<div class="large-9 columns">
 						<!--6 Eingabe abschliessen -->
 						<p>Mit diesem Schritt schliessen Sie ihre Dateneingabe ab. Die Schutzgebühr von CHF 50 wird damit fällig.</p>
 						<p>Das Team von opCheck wird Ihnen in den kommenden Tagen einen Spezialisten zuweisen.</p>
 						<p>Herzlichen Dank für die Nutzung von opCheck.</p>
-						<div class="row">
-							<div class="large-6 columns"><a href="#" class="button expand">Ja, Spezialisten anfordern</a></div>
-							<div class="large-6 columns"><a href="#" class="button expand white">Abbrechen</a></div>
-						</div>
 					</div>
 					<div class="large-3 columns"></div>
 				</div>	
+				<div class="row">
+					<div class="large-6 columns"><a href="#" class="button expand">Ja, Spezialisten anfordern</a></div>
+					<div class="large-6 columns"><a href="#" class="button expand white">Abbrechen</a></div>
+				</div>
 		    </div>			
 		  </dd>
 		</dl>
