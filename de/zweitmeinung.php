@@ -7,7 +7,7 @@
 		<p>Lassen Sie sich Zeit. Sie haben jederzeit die Möglichkeit die eingegebenen Daten zu speichern. Sie können dann die Eingabe zu einem späteren Zeitpunkt wieder aufnehmen und komplettieren.</p>
 		<dl class="accordion" data-accordion="">
 		  <dd class="accordion-navigation">
-		  	<a href="#panel1b"><div class="left progress-counter"><span class="iconStep">1</span></div> Demographische Daten</a> 
+		  	<a class="firstPanel" href="#panel1b"><div class="left progress-counter"><span class="iconStep">1</span></div> Demographische Daten <span class="right checked"><img src="../images/icons/checked.svg" alt="Ausgefüllt Anzeige"></span></a> 
 		    <div id="panel1b" class="content active">
 				<div class="row">
 					<div class="large-9 columns">
@@ -30,7 +30,7 @@
 		    </div>
 		  </dd>
 		  <dd class="accordion-navigation">
-		    <a id="goTopanel2b" href="#panel2b"><div class="left progress-counter"><span class="iconStep">2</span></div> Kurzdiagnose</a>
+		    <a id="goTopanel2b" href="#panel2b"><div class="left progress-counter"><span class="iconStep">2</span></div> Kurzdiagnose<span class="right checked"><img src="../images/icons/checked.svg" alt="Ausgefüllt Anzeige"></a>
 		    <div id="panel2b" class="content">
 				<div class="row">
 					<div class="large-9 columns">
@@ -40,7 +40,7 @@
 					<div class="large-3 columns">
 						<div class="formInfo">
 							<p>Hier ordnen Sie Ihren Fall dem richtigen Fachgebiet zu.</p> 
-							<p>Die Grundangaben helfen opCheck dabei, den richtigen Spezialisten für Ihre Zweitmeinung zu finden.</p>						
+							<p>Die Grundangaben helfen opCheck dabei, den richtigen Spezialisten für Ihre Zweitmeinung zu finden.<span class="right checked"><img src="../images/icons/checked.svg" alt="Ausgefüllt Anzeige"></p>						
 						</div>
 					</div>
 				</div>
@@ -53,7 +53,7 @@
 			</div>		
 		  </dd>
 		  <dd class="accordion-navigation">
-		    <a id="goTopanel3b" href="#panel3b"><div class="left progress-counter"><span class="iconStep">3</div> Befund</a>
+		    <a id="goTopanel3b" href="#panel3b"><div class="left progress-counter"><span class="iconStep">3</div> Befund <span class="right checked"><img src="../images/icons/checked.svg" alt="Ausgefüllt Anzeige"></a>
 		    <div id="panel3b" class="content">
 				<div class="row">
 					<div class="large-9 columns">
@@ -76,7 +76,7 @@
 			</div>
 		  </dd>
 		  <dd class="accordion-navigation">
-		    <a id="goTopanel4b" href="#panel4b"><div class="left progress-counter"><span class="iconStep">4</div> Befundbilder</a>
+		    <a id="goTopanel4b" href="#panel4b"><div class="left progress-counter"><span class="iconStep">4</div> Befundbilder <span class="right checked"><img src="../images/icons/checked.svg" alt="Ausgefüllt Anzeige"></a>
 		    <div id="panel4b" class="content">
 				<div class="row">
 					<div class="large-9 columns">
@@ -98,7 +98,7 @@
 			</div>
 		  </dd>			
 		  <dd class="accordion-navigation">
-		    <a id="goTopanel5b" href="#panel5b"><div class="left progress-counter"><span class="iconStep">5</div> Zweitmeinungsarzt</a>
+		    <a id="goTopanel5b" href="#panel5b"><div class="left progress-counter"><span class="iconStep">5</div> Zweitmeinungsarzt <span class="right checked"><img src="../images/icons/checked.svg" alt="Ausgefüllt Anzeige"></a>
 		    <div id="panel5b" class="content">
 				<div class="row">
 					<div class="large-9 columns">
@@ -120,8 +120,8 @@
 				</div>				
 				</div>
 		  </dd>
-		  <dd class="accordion-navigation contolsWrap hiddenObject">
-		    <a id="goTopanel6b" href="#panel6b"><div class="left progress-counter"><span class="iconStep">6</div> Eingabe abschliessen</a>
+		  <dd class="accordion-navigation contolsWrap hiddenObject hidden">
+		    <a id="goTopanel6b" href="#panel6b"><div class="left progress-counter"><span class="iconStep">6</div> Eingabe abschliessen <span class="right checked"><img src="../images/icons/checked.svg" alt="Ausgefüllt Anzeige"></a>
 		    <div id="panel6b" class="content">
 				<div class="row margin-bottom-20">
 					<div class="large-9 columns">
@@ -133,8 +133,8 @@
 					<div class="large-3 columns"></div>
 				</div>	
 				<div class="row">
-					<div class="large-6 columns"><a href="#" class="button expand">Ja, Spezialisten anfordern</a></div>
-					<div class="large-6 columns"><a href="#" class="button expand white">Abbrechen</a></div>
+					<div class="large-6 columns"><a href="#" class="button expand lastAccordSave">Ja, Spezialisten anfordern</a></div>
+					<div class="large-6 columns"><a href="#" class="button expand white lastAccordCancel">Abbrechen</a></div>
 				</div>
 		    </div>			
 		  </dd>

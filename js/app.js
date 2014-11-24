@@ -5,6 +5,7 @@ $('.firstAccordSave').click(function() {
 	$('#panel2b').parent().addClass('active');
 	$('#panel2b').addClass('active');
 	$('#panel1b').removeClass('active');
+	$(".firstPanel .checked").show();
 	$('#panel1b').parent().removeClass('active');
 });
 $('.secondAccordSave').click(function() {
@@ -13,6 +14,7 @@ $('.secondAccordSave').click(function() {
 	$('#panel3b').addClass('active');
 	$('#panel2b').removeClass('active');
 	$('#panel2b').parent().removeClass('active');
+	$("#goTopanel2b .checked").show();
 });
 $('.thirdAccordSave').click(function() {
 	/* Act on the event */
@@ -20,6 +22,7 @@ $('.thirdAccordSave').click(function() {
 	$('#panel4b').addClass('active');
 	$('#panel3b').removeClass('active');
 	$('#panel3b').parent().removeClass('active');
+	$("#goTopanel3b .checked").show();
 });
 $('.fourthAccordSave').click(function() {
 	/* Act on the event */
@@ -27,6 +30,7 @@ $('.fourthAccordSave').click(function() {
 	$('#panel5b').addClass('active');
 	$('#panel4b').removeClass('active');
 	$('#panel4b').parent().removeClass('active');
+	$("#goTopanel4b .checked").show();
 });
 
 $('.fifthAccordSave').click(function() {
@@ -35,6 +39,13 @@ $('.fifthAccordSave').click(function() {
 	$('#panel6b').addClass('active');
 	$('#panel5b').removeClass('active');
 	$('#panel5b').parent().removeClass('active');
+	$("#goTopanel5b .checked").show();
+	$(".hiddenObject").addClass('visible');
+});
+
+$('.lastAccordCancel').click(function() {
+		$(".checked").hide();
+		$(".hiddenObject").removeClass('visible');
 });
 
 $('.lastAccordSave').click(function() {
@@ -44,9 +55,9 @@ $('.lastAccordSave').click(function() {
 			$('#panel6b').parent().removeClass('active');
 			$('#panel6b').removeClass('active');
 			hidden.css('display', 'block');
+			$("#goTopanel6b .checked").show();
 		}
 
-		console.log('eigentlich sötters checke!');
 });
 
 
