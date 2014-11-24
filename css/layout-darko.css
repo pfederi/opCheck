@@ -1,23 +1,14 @@
-/* line 3, ../scss/layout-darko.scss */
 .accordion dd {
-  border-bottom: 1px solid #ccc;
-}
-/* line 5, ../scss/layout-darko.scss */
-.accordion dd:last-of-type {
-  border-bottom: 0;
-}
-/* line 7, ../scss/layout-darko.scss */
-.accordion dd:last-of-type .content {
-  background: transparent;
-  background-image: none !important;
-}
-/* line 13, ../scss/layout-darko.scss */
+  border-bottom: 1px solid #ccc; }
+  .accordion dd:last-of-type {
+    border-bottom: 0; }
+    .accordion dd:last-of-type .content {
+      background: transparent;
+      background-image: none !important; }
 .accordion .content {
   padding-left: 50px !important;
-  background: transparent url("../images/design/pathLead.png") 18px 0 repeat-y !important;
-}
+  background: transparent url("../images/design/pathLead.png") 18px 0 repeat-y !important; }
 
-/* line 19, ../scss/layout-darko.scss */
 .iconStep {
   display: inline-block;
   vertical-align: middle;
@@ -31,83 +22,55 @@
   border: 2px solid #ccc;
   border-radius: 20px;
   background: #fff;
-  margin: -2px 10px 0 0;
-}
-/* line 34, ../scss/layout-darko.scss */
-.iconStep.active {
-  background-color: #99d6c4;
-}
+  margin: -2px 10px 0 0; }
+  .iconStep.active {
+    background-color: #99d6c4; }
 
-/* line 40, ../scss/layout-darko.scss */
 .formInfo p {
   font-size: .875em;
-  line-height: 1.2em;
-}
+  line-height: 1.2em; }
 
-/* line 45, ../scss/layout-darko.scss */
 .button.expand.white {
   background-color: white;
   color: #0078a0;
-  text-decoration: underline;
-}
+  text-decoration: underline; }
 
-/* line 54, ../scss/layout-darko.scss */
 .margin-bottom-5 {
-  margin-bottom: 5px !important;
-}
+  margin-bottom: 5px !important; }
 
-/* line 54, ../scss/layout-darko.scss */
 .margin-bottom-10 {
-  margin-bottom: 10px !important;
-}
+  margin-bottom: 10px !important; }
 
-/* line 54, ../scss/layout-darko.scss */
 .margin-bottom-15 {
-  margin-bottom: 15px !important;
-}
+  margin-bottom: 15px !important; }
 
-/* line 54, ../scss/layout-darko.scss */
 .margin-bottom-20 {
-  margin-bottom: 20px !important;
-}
+  margin-bottom: 20px !important; }
 
-/* line 54, ../scss/layout-darko.scss */
 .margin-bottom-25 {
-  margin-bottom: 25px !important;
-}
+  margin-bottom: 25px !important; }
 
-/* line 54, ../scss/layout-darko.scss */
 .margin-bottom-30 {
-  margin-bottom: 30px !important;
-}
+  margin-bottom: 30px !important; }
 
-/* line 54, ../scss/layout-darko.scss */
 .margin-bottom-35 {
-  margin-bottom: 35px !important;
-}
+  margin-bottom: 35px !important; }
 
-/* line 54, ../scss/layout-darko.scss */
 .margin-bottom-40 {
-  margin-bottom: 40px !important;
-}
+  margin-bottom: 40px !important; }
 
-/* line 54, ../scss/layout-darko.scss */
 .margin-bottom-45 {
-  margin-bottom: 45px !important;
-}
+  margin-bottom: 45px !important; }
 
-/* line 57, ../scss/layout-darko.scss */
 .hidden {
-  display: none;
-}
+  display: none; }
 
-/* line 58, ../scss/layout-darko.scss */
 .spinner {
+  border: 1px solid #999;
   position: absolute;
   top: 25%;
   left: 50%;
   padding: 20px;
   margin-left: -12.5%;
   text-align: center;
-  background-color: #fff;
-}
+  background-color: #fff; }

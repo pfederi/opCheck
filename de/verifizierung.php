@@ -3,7 +3,7 @@
 <section class="row verifizierung">
 	<div class="large-6 columns large-centered">
 		<div class="spinner hidden">
-			<p>Einen Augeblick bitte...</p>
+			<p>Einen Augenblick bitte...</p>
 			<img src="/images/design/spinner.gif" alt="Progress Anzeige">
 		</div>		
 		<h1>Verifizierung</h1>
