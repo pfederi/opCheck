@@ -68,7 +68,7 @@ $('#login').on('valid.fndtn.abide', function () {
 		info.removeClass("hidden");
 	}
 	setTimeout(function() {
-		window.location.href  = "verifizierung"; 
+		window.location.href  = "verifizierung";
 		}, 1500);
    	 event.preventDefault()
   });

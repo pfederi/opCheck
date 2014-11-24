@@ -6,7 +6,7 @@
 	</div>
 	<div class="email-field">
 		<label>Ihre Mobile Telefonnummer <small>(Pflichtfeld)</small></label>
-		<input type="tel" required placeholder="079 123 45 67" pattern="integer">
+		<input type="tel" required placeholder="079 123 45 67">
 		<small class="error">Um Ihnen Zugriff auf die Plattform zu gewähren, benötigen wir eine gültige Natel-Nummer</small>
 	</div>
 	<div class="row">
