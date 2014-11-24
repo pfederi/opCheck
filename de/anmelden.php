@@ -1,6 +1,6 @@
 <?php include("../includes/header.inc.php"); ?>
 
-<section class="row">
+<section class="row anmelden">
 	<div class="large-6 columns large-centered">
 		<div class="spinner hidden">
 			<p>Einen Augeblick bitte...</p>

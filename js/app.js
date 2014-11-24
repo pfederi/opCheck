@@ -50,18 +50,28 @@ $('.lastAccordSave').click(function() {
 });
 
 
-
-
-$("#loginWeiter").click( function(){
+/*logins bei erfolgreichen Dateneingabe weiterleiten & Spinner schalten*/
+$('#login').on('valid.fndtn.abide', function () {
 	var info = $('.spinner');
-
 	if ( info.hasClass("hidden") ){
 		info.removeClass("hidden");
 	}
 	setTimeout(function() {
 		window.location.href  = "verifizierung"; 
 		}, 1500);
+   	 event.preventDefault()
+  });
+
+$('#verification').on('valid.fndtn.abide', function () {
+	var info = $('.spinner');
+	if ( info.hasClass("hidden") ){
+		info.removeClass("hidden");
+	}
+	setTimeout(function() {
+		window.location.href  = "zweitmeinung"; 
+		}, 2000);
     	event.preventDefault()
-});
+  });
+
 
 
