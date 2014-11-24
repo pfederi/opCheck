@@ -124,3 +124,9 @@
   height: 20px;
   display: none;
 }
+
+/* line 83, ../scss/layout-darko.scss */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}

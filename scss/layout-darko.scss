@@ -79,3 +79,9 @@ $margins: (5,10,15,20,25,30,35,40,45);
  	height: 20px;
  	display: none;
  }
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    //margin: 0;
+}

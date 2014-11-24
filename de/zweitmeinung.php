@@ -134,7 +134,7 @@
 				</div>	
 				<div class="row">
 					<div class="large-6 columns"><a href="#" class="button expand lastAccordSave">Ja, Spezialisten anfordern</a></div>
-					<div class="large-6 columns"><a href="#" class="button expand white lastAccordCancel">Abbrechen</a></div>
+					<div class="large-6 columns"><a href="zweitmeinung" class="button expand white lastAccordCancel">Abbrechen</a></div>
 				</div>
 		    </div>			
 		  </dd>
